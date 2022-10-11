@@ -41,7 +41,7 @@
 * github.com 에 로그인하기
 * repository의 주소 복사하기
 * bash 를 열고
-* git clone 주소 붙이기 (Shift+ons)
+* git clone 주소 붙이기 (Shift + Ins)
 
 ## 다운로드 후에 내용 변경한 후 다시 push 
 * git add .

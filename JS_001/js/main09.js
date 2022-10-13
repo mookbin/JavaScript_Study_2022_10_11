@@ -7,5 +7,5 @@ const btnCacl = document.querySelector("button");
 btnCacl?.addEventListener("click", () => {
   const num1 = inputNum1.value;
   const num2 = inputNum2.value;
-  spanSum.innerText = num1 + num2;
+  spanSum.innerText = parseInt(num1) + parseInt(num2);
 });

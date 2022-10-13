@@ -1,4 +1,4 @@
-#NODEJS 시작하기
+# NODEJS 시작하기
 * http://nodejs.org 에서 다운로드받기
 * NODEJS 는 항상 2가지 Version을 제공한다. LTS와 Curent 를 제공한다
 * LTS는 현재 실무 프로젝트에서 사용해도 아무런 문제가 없는 Version
@@ -8,4 +8,4 @@
 ## NodeJS를 사용하여 JS 애플리케이션 만들기 준비 
 * cmd 창을 관리자 권한으로 실행해야 한다.
 * npm 도구를 Update 하기
-```npm install -g npm```을 실행한다.
+```npm install -g npm```  을 실행한다.

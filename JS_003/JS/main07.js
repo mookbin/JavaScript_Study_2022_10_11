@@ -39,4 +39,4 @@ let sum = 0;
 for (let i = 0; i < nums.length; i++) {
   sum += nums[i];
 }
-console.log(sum);
+console.log("결과", sum);

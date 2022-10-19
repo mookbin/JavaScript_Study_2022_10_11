@@ -13,29 +13,20 @@ const nickname = document.querySelector("#nickname");
 const tell = document.querySelector("#tell");
 
 btn_submit?.addEventListener("click", () => {
-
-        if (username.value == "") {
-           alert ("아이디를 입력하세요");
-           username.focus();
-        }
-       
-        else if (password.value == ""){
-           alert("비밀번호를 입력하세요")
-           password.focus()
-   
-        }
-        else if (password.value != re_password.value) {
-           alert('패스워드가 일치하지 않습니다.');
-           password.focus();
-        }
-        else if (nickname.value == "") {
-           alert("닉네임을 입력하세요")
-           nickname.focus()
-           }
-           else if (tell.value == "") {
-               alert("전화번호를 입력하세요")
-               tell.focus()
-           } 
-   
-   
-        })
+  if (username.value == "") {
+    alert("아이디를 입력하세요");
+    username.focus();
+  } else if (password.value == "") {
+    alert("비밀번호를 입력하세요");
+    password.focus();
+  } else if (password.value != re_password.value) {
+    alert("패스워드가 일치하지 않습니다.");
+    password.focus();
+  } else if (nickname.value == "") {
+    alert("닉네임을 입력하세요");
+    nickname.focus();
+  } else if (tell.value == "") {
+    alert("전화번호를 입력하세요");
+    tell.focus();
+  }
+});

@@ -5,32 +5,22 @@
  */
 const inputs = document.querySelectorAll("input");
 const tbodyAddr = document.querySelector("tbody.addr");
-const btn = document.querySelector("button");
+const btn = document.querySelector("button.btn");
 
 btn?.addEventListener("click", () => {
+  let tr = document.createElement("TR");
+  let td = document.createElement("TD");
 
-  const 이름 = [""] ;
+  td.innerText = inputs[0].value;
+  tr.appendChild(td);
 
-  for (let i = 0; i < 이름.length; i++) {
+  td = document.createElement("TD");
+  td.innerText = inputs[1].value;
+  tr.appendChild(td);
 
-    
-    let tr = document.createElement("TR");
-    let td = document.createElement("TD");
+  td = document.createElement("TD");
+  td.innerText = inputs[2].value;
+  tr.appendChild(td);
 
-    td.innerText = 이름[i];
-    tr.appendChild(td);
-  
-
-    td = document.createElement("TD");
-    td.innerText = "주소" + i;
-    tr.appendChild(td);
-   
-
-    td = document.createElement("TD");
-    td.innerText = "전화번호" + i;
-    tr.appendChild(td);
-
-    tbodyAddr.appendChild(tr);
-
-}
+  tbodyAddr.appendChild(tr);
 });

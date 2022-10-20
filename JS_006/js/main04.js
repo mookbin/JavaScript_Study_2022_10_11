@@ -13,7 +13,8 @@ const addrLoad = () => {
   console.log("가져온 데이터 확인");
   console.table(addrList);
 
-  if (addrList) {
+  if (!addrList) {
+    addList = [];
     return false;
   }
   for (let i = 0; i < addrList.length; i++) {

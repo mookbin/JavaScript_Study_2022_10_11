@@ -21,7 +21,7 @@ const scoreInput = () => {
 
     // 문자열을 Number() 을 사용하여 변환(wrapping) 하면
     // NaN(Not a Number) 값이 된다
-    //NaN 을 변수에 덧셈하면 최옺ㅇ결과도 NaN 이 된다
+    //NaN 을 변수에 덧셈하면 최종결과도 NaN 이 된다
     //미리 값을 Number() 로 변환해 보고
     //결과가 true 인 경우에만 sum 변수에 누적하자
 

@@ -1,4 +1,4 @@
-const nums = []; // length 가 0 인 배열
+const nums = []; 
 const h1 = document.querySelector("h1");
 
 for (let i = 0; i < 10; i++) {
@@ -13,6 +13,6 @@ nums.forEach((num) => {
 });
 
 nums.forEach((num) => {
-  // h1.textContent = ht.textContent + num
+
   h1.textContent += `${num} `;
 });

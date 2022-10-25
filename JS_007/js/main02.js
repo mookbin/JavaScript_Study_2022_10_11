@@ -41,7 +41,6 @@ const scoreInput = () => {
   tr.appendChild(td);
 
   td = document.createElement("TD");
-
   td.textContent = Math.round(sum / 3);
   tr.appendChild(td);
   tbodyScore.append(tr);
@@ -51,11 +50,10 @@ let numList = [];
 
 const numLoad = () => {
   const strNum = localStorage.getItem("myNum");
-
   numList = JSON.parse(strNum);
+  JSON.parse(scoreInput)
   console.log("가져온 데이터 확인");
   console.table(numList);
-
   if (!numList) {
     numList = [];
     return false;
@@ -111,7 +109,6 @@ const numInput = () => {
 
   numList.push(num);
   console.table(numList);
-
   localStorage.setItem("myNum", JSON.stringify(numList));
 };
 

@@ -1,4 +1,4 @@
-const nums = []; // length 가 0 인 배열
+const nums = []; 
 const h1 = document.querySelector("h1");
 
 for (let i = 0; i < 10; i++) {

@@ -3,7 +3,7 @@
  * DOMContent : 화면에 보이는 모든 것
  * DOMContentLoaded : 화면에 모든 요소가 다 그려지면..
  */
-document.addEventListener("DOMContentLoaded", () => {
+ document.addEventListener("DOMContentLoaded", () => {
   const btnRe = document.querySelector("div.btn_re");
   // span 의 개수가 많아서, class 를 모두 붙이가 번거롭다
   // 부모 div에 class 를 지정하고 div span 형식으로

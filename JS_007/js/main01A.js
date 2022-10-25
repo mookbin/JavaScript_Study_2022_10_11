@@ -3,9 +3,9 @@
  * DOMContent : 화면에 보이는 모든 것
  * DOMContentLoaded : 화면에 모든 요소가 다 그려지면..
  */
-document.addEventListener("DOMContentLoaded", () => {
+ document.addEventListener("DOMContentLoaded", () => {
   const btnRe = document.querySelector("div.btn_re");
-  // span 의 개수가 많아서, class 를 모두 붙이기가 번거롭다
+  // span 의 개수가 많아서, class 를 모두 붙이가 번거롭다
   // 부모 div에 class 를 지정하고 div span 형식으로
   // span tag 를 가져온다
   const spanNumbs = document.querySelectorAll("div.number span");
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // const weekString = ["월","화","수","목","금","토"]
     const weekString = "일월화수목금토";
     // 문자열 변수에 저장된 문자열은 마치 문자열 배열에
-    // 저장된 것처럼 취급할 수 있다
+    // 저장된 것처럼 취급 할수 있다
     // weekString 변수에 저장된 문자열 중에서
     // weekNum index 번째 문자열을 getter 하여 weekText 에 담아라
     const weekText = weekString[weekNum];
@@ -90,8 +90,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const miliSeconds = today.getMilliseconds();
 
     const todayContent = `${year}년 ${month}월 ${date}일 
-      (${weekText})
-      ${hours}:${minutes}:${seconds}:${miliSeconds}`;
+    (${weekText})
+    ${hours}:${minutes}:${seconds}:${miliSeconds}`;
     divToday.textContent = todayContent;
   };
 
@@ -101,6 +101,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // DOMContentLoaded 가 완성되면
   // 즉시 실행하라
   // 여기는 함수에 () 를 붙여야 한다
-  // 화면이 새로고침, 새롭게 열릴 때 실행하라
+  // 화면이 새로고침, 새롭게 열릴때 실행하라
   lottoDisp();
 });

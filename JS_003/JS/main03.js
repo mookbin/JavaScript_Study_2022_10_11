@@ -17,7 +17,7 @@ const results = document.querySelectorAll("span,result");
  **/
 
 /**
- * 본뭉에 button tag가 한개만 있기 때문에
+ * 본문에 button tag가 한개만 있기 때문에
  * 별도의 id를 부착하지 않고 직접 tag 를 가져와서 변수에 보관
  */
 const btn = document.querySelector("button");

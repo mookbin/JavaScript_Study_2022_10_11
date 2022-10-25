@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      section {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+      }
+      section.main {
+        border: 1px solid blue;
+      }
+      section.sub1 {
+        border: 1px solid green;
+      }
+      section.sub2 {
+        border: 1px solid red;
+      }
+      section.main div,
+      section.sub1 div,
+      section.sub2 div {
+        border: 1px solid #bbb;
+        margin: 5px;
+        padding: 1em;
+      }
+
+      button {
+        background-color: rgb(233, 233, 233);
+        color: rgb(0, 0, 0);
+        padding: 8px 12px;
+        margin: 5px;
+        border: none;
+      }
+
+      button:hover {
+        background-color: rgb(0, 119, 255);
+        color: azure;
+        box-shadow: 1px 1px 1px rgb(21, 33, 204);
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="main"></section>
+    <section class="sub1"></section>
+    <section class="sub2"></section>
+    <button class="btn">새로고침</button>
+  </body>
+  <script src="js/main23.js"></script>
+</html>

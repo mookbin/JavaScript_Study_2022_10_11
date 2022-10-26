@@ -5,27 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        article:nth-of-type(1) {
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      article:nth-of-type(1) {
         border: 5px solid blue;
       }
-        header {
-            background-color: rgb(142, 223, 22);
-            padding: 1.3em;
-            color: white;
-            text-align: center;
-            text-shadow: 1px 1px 1px black;
-        }
+      header {
+        background-color: rgb(142, 223, 22);
+        padding: 1.3em;
+        color: white;
+        text-align: center;
+        text-shadow: 1px 1px 1px black;
+      }
 
-        nav {
-            background-color: blue;
-            color: white;
-        }
+      nav {
+        background-color: blue;
+        color: white;
+      }
       ul {
         list-style-type: square;
         list-style: none;
@@ -35,14 +34,12 @@
         padding: 12px 16px;
       }
 
-
       li:nth-of-type(1) {
         margin-left: 20px;
       }
 
       li:hover {
         background-color: #aaa;
-
       }
       button {
         margin: 5px;
@@ -65,57 +62,60 @@
         text-align: center;
         padding: 0.5em;
       }
-      form label, form input {
+      form label,
+      form input {
         display: inline-block;
         margin: 5px;
         padding: 8px;
-
       }
-       form label {
+      form label {
         width: 30%;
         text-align: right;
-        color:blue;
+        color: blue;
         font-weight: bold;
-       }
+      }
 
-       form input {
+      form input {
         border-radius: 5px;
         outline: none;
         border: 1px solid #777;
-       }
+      }
 
-       form input focus {
+      form input focus {
         background-color: #eee;
-       }
-    
+      }
     </style>
   </head>
   <body>
     <header>
-        <h1>검색엔진</h1>
-        <p>구글, 네이버, 다음 검색을 구현한다</p>
+      <h1>검색엔진</h1>
+      <p>구글, 네이버, 다음 검색을 구현한다</p>
     </header>
     <nav class="main_nav">
-        <ul>
-            <li id="home">Home</li>
-            <li id="google">구글</li>
-            <li id="naver">네이버</li>
-            <li id="daum">다음</li>
-            <li id="about">About</li>
-        </ul>
+      <ul>
+        <li id="home">Home</li>
+        <li id="google">구글</li>
+        <li id="naver">네이버</li>
+        <li id="daum">다음</li>
+        <li id="about">About</li>
+      </ul>
     </nav>
-   
+
     <section>
-        <article>
-            <form class="google" target="_blank" action="https://google.co.kr/search">
-                <label>검색어</label>
-            <input name="q" placeholder="검색어를 입력하세요" />
-            <button>검색</button>
-            </div>
-        </article>
+      <article>
+        <form
+          class="google"
+          target="_blank"
+          action="https://google.co.kr/search"
+        >
+          <label>검색어</label>
+          <input name="q" placeholder="검색어를 입력하세요" />
+          <button>검색</button>
+        </form>
+      </article>
     </section>
     <footer>
-        <address>CopyRight &copy; beeen1@naver.com</address>
+      <address>CopyRight &copy; beeen1@naver.com</address>
     </footer>
   </body>
   <script src="js/링크.js"></script>

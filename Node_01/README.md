@@ -9,7 +9,13 @@
 
 * 서버 시작하기 : `server.listen() `
 
-### Web Application Srver 를 구축하기위한 도구 설치
+## NodeJS 프로젝트 github 와 연동할 때 주의사항
+
+- node_modules 폴더는 절대 업로드 금지
+- NodeJS 프로젝트를 github 에서 clone, pull 한 후에는 반드시
+  `npm install`을 실행해준다 : dependencies 다시 다운로드
+
+### Web Application Srver 를 구축하기 위한 도구 설치
 
 - express 설치하기 : `npm install -save express`
   이 명령을 실행하면 package.json 에 dependencies 항목이 생성되고
